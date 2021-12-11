@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="samples"/>
+	<classpathentry kind="src" path="gensrc"/>
+	<classpathentry kind="src" path="sapi5"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="myspeechsrc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="lib" path="lib/jacob.jar" sourcepath="/jacob/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
