@@ -1,0 +1,11 @@
+#ABNF 1.0 GB2312;
+
+language zh-CN;
+mode voice;
+
+root $main;
+
+$main = $phone_number;
+$phone_number = $digit<1-16>;
+$digit = 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九 | 零;
+
