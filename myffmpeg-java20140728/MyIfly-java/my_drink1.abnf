@@ -1,0 +1,20 @@
+#ABNF 1.0 GB2312;
+
+language zh-CN;
+mode voice;
+
+tag-format <semantics/1.0>;
+{var out = new Object();};
+{var rules = new Object();};
+
+
+root $main;
+$main = $drink;
+
+public $drink = {out.drinksize = "中杯";}
+[$foodsize {out.drinksize = rules.foodsize;}]
+$kindofdrink {out.type = rules.kindofdrink;};
+
+$foodsize = 小杯 | 中杯 | 大杯;
+$kindofdrink = 可口可乐 | 百事可乐 | coffee!en-us | CCTV1!en-us | hello!en-us 世界 | 我 love!en-us 你;
+
