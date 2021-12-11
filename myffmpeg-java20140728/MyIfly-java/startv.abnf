@@ -1,0 +1,8 @@
+#ABNF 1.0 GB2312;
+
+language zh-CN;
+mode voice;
+
+root $main;
+
+$main = 
