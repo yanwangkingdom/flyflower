@@ -1,0 +1,18 @@
+<GRAMMAR LANGID="804"><!--此为语音号,中文为804-->
+ <!-- Rule definitions --> 
+
+<RULE NAME="start" TOPLEVEL="ACTIVE">  
+<O>颜色</O> 
+
+  
+<RULEREF NAME="colour" PROPNAME="chosencolour"/> 
+ </RULE>  
+<RULE NAME="colour"> 
+ 
+  <L PROPNAME="colourvalue">    
+   <P VAL="1">红色</P>   
+   <P VAL="2">黄色</P>   
+   <P VAL="3">绿色</P>  
+  </L>
+ </RULE> 
+</GRAMMAR>
