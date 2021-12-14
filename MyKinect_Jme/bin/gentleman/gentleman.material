@@ -1,0 +1,810 @@
+material BeltLoops
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0.117647 0.0627451 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Jeans1_D.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexBodyNG.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material BottomEyelashes
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.984314 0.976471 0.976471 1
+			specular 0.0313726 0.0313726 0.0313726 0.7 99.2726
+
+			texture_unit
+			{
+				texture RexGreyS.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material button
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0.117647 0.0627451 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Jeans1_D.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material CorneaLeft
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 97.78
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				colour_op_ex source1 src_current src_manual 1 1 1
+				colour_op_multipass_fallback src_alpha one_minus_src_alpha
+				alpha_op_ex blend_manual src_diffuse src_manual 0
+			}
+		}
+
+	}
+
+}
+
+
+
+material CorneaRight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 99.5561
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				colour_op_ex source1 src_current src_manual 1 1 1
+				colour_op_multipass_fallback src_alpha one_minus_src_alpha
+				alpha_op_ex blend_manual src_diffuse src_manual 0
+			}
+		}
+
+	}
+
+}
+
+
+
+material EyeballLeft
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material EyeballRight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Eyelet
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.976471 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Eyesockets
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexHead.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material faceroomSkin
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 87.5489
+
+			texture_unit
+			{
+				texture Mon_Dec_15_16_29_44_2014Map.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Fingernails
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexBody.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Gums
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0 0 0 1 97.78
+		}
+
+	}
+
+}
+
+
+
+material HeelColor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material HeelColor2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.976471 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material HeelColor3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.976471 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material HeelTrimBack
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.976471 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material InnerMouth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0 0 0 1 97.78
+		}
+
+	}
+
+}
+
+
+
+material IrisLeft
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material IrisRight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Lace1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.654902 0.137255 0.00392157 1
+			specular 0.0470588 0.0431373 0.0156863 1 87.5489
+		}
+
+	}
+
+}
+
+
+
+material Lace2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Lacrimals
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexHead.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material pants
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0.117647 0.0627451 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Jeans1_D.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material PupilLeft
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material PupilRight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.992157 0.992157 1
+			specular 0 0 0 0 97.78
+
+			texture_unit
+			{
+				texture RexEyesBlueNR.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Shirt
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.121569 0.121569 0.121569 1 92.966
+
+			texture_unit
+			{
+				texture P10Rex_Tshirt_D2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Sole
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material SoleToe
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.992157 0.976471 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Teeth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 99.4556
+
+			texture_unit
+			{
+				texture RexTeethGums.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Toenails
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexBody.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Tongue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.976471 0.976471 0.976471 1
+			specular 0 0 0 1 97.78
+
+			texture_unit
+			{
+				texture RexHead.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material tongue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material TopEyelashes
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.984314 0.976471 0.976471 1
+			specular 0.0313726 0.0313726 0.0313726 0.7 99.2726
+
+			texture_unit
+			{
+				texture RexGreyS.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material Trim1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.984314 0.964706 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Trim2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.984314 0.964706 0.992157 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Trim5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Trim_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.0392157 0.192157 0.0509804 1 84.5628
+
+			texture_unit
+			{
+				texture P10Rex_Sneaker_D1.jpg
+			}
+		}
+
+	}
+
+}
