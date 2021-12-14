@@ -1,0 +1,19 @@
+
+material faceroomSkin
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 87.5489
+
+			texture_unit
+			{
+				texture Mon_Dec_15_16_29_44_2014Map.png
+			}
+		}
+
+	}
+
+}
