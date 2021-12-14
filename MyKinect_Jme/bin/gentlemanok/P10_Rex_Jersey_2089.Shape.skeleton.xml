@@ -1,0 +1,104 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="hip">
+            <position x="-0.0320942" y="96.5009" z="1.57541"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="1" name="pelvis">
+            <position x="0.0192961" y="-0.201157" z="0.0211458"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="2" name="lGlute">
+            <position x="9.8446" y="-5.15649" z="-4.72764"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="3" name="lThigh">
+            <position x="9.28747" y="-3.54568" z="0.092864"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="4" name="rGlute">
+            <position x="-9.819" y="-5.15649" z="-4.72764"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="5" name="rThigh">
+            <position x="-9.26188" y="-3.54568" z="0.092864"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="6" name="waist">
+            <position x="0.0305615" y="4.5403" z="-1.96861"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="7" name="abdomen">
+            <position x="0.00153275" y="12.0645" z="-0.298355"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="8" name="chest">
+            <position x="0" y="14.3229" z="-3.76858"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="9" name="lCollar">
+            <position x="-0.0360025" y="15.5533" z="0.441131"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="10" name="lShldr">
+            <position x="16.3982" y="-2.8741" z="-0.980748"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="11" name="neck">
+            <position x="0" y="22.0692" z="3.70893"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="12" name="rCollar">
+            <position x="0.0360025" y="15.5533" z="0.441131"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="13" name="rShldr">
+            <position x="-16.3982" y="-2.8741" z="-0.980748"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="pelvis" parent="hip"/>
+        <boneparent bone="lGlute" parent="pelvis"/>
+        <boneparent bone="lThigh" parent="pelvis"/>
+        <boneparent bone="rGlute" parent="pelvis"/>
+        <boneparent bone="rThigh" parent="pelvis"/>
+        <boneparent bone="waist" parent="hip"/>
+        <boneparent bone="abdomen" parent="waist"/>
+        <boneparent bone="chest" parent="abdomen"/>
+        <boneparent bone="lCollar" parent="chest"/>
+        <boneparent bone="lShldr" parent="lCollar"/>
+        <boneparent bone="neck" parent="chest"/>
+        <boneparent bone="rCollar" parent="chest"/>
+        <boneparent bone="rShldr" parent="rCollar"/>
+    </bonehierarchy>
+    <animations/>
+</skeleton>
