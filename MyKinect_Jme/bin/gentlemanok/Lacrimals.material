@@ -1,0 +1,19 @@
+
+material Lacrimals
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 1 1 1 1 97.78
+
+			texture_unit
+			{
+				texture RexHead.png
+			}
+		}
+
+	}
+
+}
