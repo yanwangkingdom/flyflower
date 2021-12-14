@@ -1,0 +1,23 @@
+
+material CorneaRight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 99.5561
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				colour_op_ex source1 src_current src_manual 1 1 1
+				colour_op_multipass_fallback src_alpha one_minus_src_alpha
+				alpha_op_ex blend_manual src_diffuse src_manual 0
+			}
+		}
+
+	}
+
+}
