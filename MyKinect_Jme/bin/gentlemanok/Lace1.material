@@ -1,0 +1,15 @@
+
+material Lace1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.654902 0.137255 0.00392157 1
+			specular 0.0470588 0.0431373 0.0156863 1 87.5489
+		}
+
+	}
+
+}
