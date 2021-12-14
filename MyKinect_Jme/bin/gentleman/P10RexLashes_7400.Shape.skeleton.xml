@@ -1,0 +1,48 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="hip">
+            <position x="-0.0320942" y="96.5009" z="1.57541"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="1" name="waist">
+            <position x="0.0305615" y="4.5403" z="-1.96861"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="2" name="abdomen">
+            <position x="0.00153275" y="12.0645" z="-0.298355"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="3" name="chest">
+            <position x="0" y="14.3229" z="-3.76858"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="4" name="neck">
+            <position x="0" y="22.0692" z="3.70893"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="5" name="head">
+            <position x="-0.000813309" y="8.73682" z="0.683277"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="waist" parent="hip"/>
+        <boneparent bone="abdomen" parent="waist"/>
+        <boneparent bone="chest" parent="abdomen"/>
+        <boneparent bone="neck" parent="chest"/>
+        <boneparent bone="head" parent="neck"/>
+    </bonehierarchy>
+    <animations/>
+</skeleton>
