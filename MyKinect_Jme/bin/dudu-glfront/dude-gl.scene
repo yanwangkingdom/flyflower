@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.6.3" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <nodes>
+        <node name="him">
+            <position x="15.5587" y="16.2816" z="-0.722907"/>
+            <scale x="0.393701" y="0.393701" z="0.393701"/>
+            <rotation qx="0" qy="0.707107" qz="-9.27259e-008" qw="0.707107"/>
+            <entity name="him" castShadows="true" receiveShadows="true" meshFile="dude-glhim.mesh">
+                <subentities>
+                    <subentity index="0" materialName="character_animheadM"/>
+                    <subentity index="1" materialName="character_animjacketM"/>
+                    <subentity index="2" materialName="character_animpantsM"/>
+                    <subentity index="3" materialName="character_animupBodyM"/>
+                    <subentity index="4" materialName="character_animeyeBallM"/>
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
