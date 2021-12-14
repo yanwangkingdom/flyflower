@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="z" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.6.3" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <nodes>
+        <node name="gentleman_26575">
+            <position x="0" y="0.272263" z="44.5298"/>
+            <scale x="0.393701" y="0.393701" z="0.393701"/>
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107"/>
+            <node name="gentleman_26575.Shape">
+                <position x="0" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="gentleman_26575.Shape" castShadows="true" receiveShadows="true" meshFile="gentleman.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="Body"/>
+                        <subentity index="1" materialName="faceroomSkin"/>
+                        <subentity index="2" materialName="Eyesockets"/>
+                        <subentity index="3" materialName="InnerMouth"/>
+                        <subentity index="4" materialName="Lacrimals"/>
+                        <subentity index="5" materialName="CorneaLeft"/>
+                        <subentity index="6" materialName="EyeballLeft"/>
+                        <subentity index="7" materialName="PupilLeft"/>
+                        <subentity index="8" materialName="IrisLeft"/>
+                        <subentity index="9" materialName="IrisRight"/>
+                        <subentity index="10" materialName="EyeballRight"/>
+                        <subentity index="11" materialName="PupilRight"/>
+                        <subentity index="12" materialName="CorneaRight"/>
+                        <subentity index="13" materialName="Gums"/>
+                        <subentity index="14" materialName="Teeth"/>
+                        <subentity index="15" materialName="Fingernails"/>
+                        <subentity index="16" materialName="Toenails"/>
+                        <subentity index="17" materialName="Tongue"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="P10RexLashes_7400.Shape">
+                <position x="0" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="P10RexLashes_7400.Shape" castShadows="true" receiveShadows="true" meshFile="P10RexLashes_7400.Shape.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="TopEyelashes"/>
+                        <subentity index="1" materialName="BottomEyelashes"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="P10_Rex_Jeans_11717.Shape">
+                <position x="0" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="P10_Rex_Jeans_11717.Shape" castShadows="true" receiveShadows="true" meshFile="P10_Rex_Jeans_11717.Shape.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="pants"/>
+                        <subentity index="1" materialName="BeltLoops"/>
+                        <subentity index="2" materialName="button"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="P10_Rex_Jersey_2089.Shape">
+                <position x="0" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="P10_Rex_Jersey_2089.Shape" castShadows="true" receiveShadows="true" meshFile="P10_Rex_Jersey_2089.Shape.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="Shirt"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="P10_Rex_Sneakers_18416.Shape">
+                <position x="0" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="P10_Rex_Sneakers_18416.Shape" castShadows="true" receiveShadows="true" meshFile="P10_Rex_Sneakers_18416.Shape.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="tongue"/>
+                        <subentity index="1" materialName="Lace1"/>
+                        <subentity index="2" materialName="Lace2"/>
+                        <subentity index="3" materialName="Trim_4"/>
+                        <subentity index="4" materialName="Trim5"/>
+                        <subentity index="5" materialName="HeelTrimBack"/>
+                        <subentity index="6" materialName="Trim2"/>
+                        <subentity index="7" materialName="Sole"/>
+                        <subentity index="8" materialName="HeelColor2"/>
+                        <subentity index="9" materialName="Eyelet"/>
+                        <subentity index="10" materialName="Trim1"/>
+                        <subentity index="11" materialName="HeelColor3"/>
+                        <subentity index="12" materialName="HeelColor"/>
+                        <subentity index="13" materialName="SoleToe"/>
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+    </nodes>
+</scene>
