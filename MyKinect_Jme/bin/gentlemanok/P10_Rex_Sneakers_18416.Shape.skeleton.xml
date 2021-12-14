@@ -1,0 +1,76 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="hip">
+            <position x="-0.0320942" y="96.5009" z="1.57541"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="1" name="pelvis">
+            <position x="0.0192961" y="-0.201157" z="0.0211458"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="2" name="lThigh">
+            <position x="9.28747" y="-3.54568" z="0.092864"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="3" name="lShin">
+            <position x="4.13031" y="-42.88" z="-5.60035"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="4" name="lFoot">
+            <position x="3.82566" y="-43.7421" z="-2.34255"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="5" name="lToe">
+            <position x="2.93937" y="-4.45467" z="8.35525"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="6" name="rThigh">
+            <position x="-9.26188" y="-3.54568" z="0.092864"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="7" name="rShin">
+            <position x="-4.13031" y="-42.88" z="-5.60035"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="8" name="rFoot">
+            <position x="-3.82566" y="-43.7421" z="-2.34255"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="9" name="rToe">
+            <position x="-2.9226" y="-4.45718" z="8.35979"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="pelvis" parent="hip"/>
+        <boneparent bone="lThigh" parent="pelvis"/>
+        <boneparent bone="lShin" parent="lThigh"/>
+        <boneparent bone="lFoot" parent="lShin"/>
+        <boneparent bone="lToe" parent="lFoot"/>
+        <boneparent bone="rThigh" parent="pelvis"/>
+        <boneparent bone="rShin" parent="rThigh"/>
+        <boneparent bone="rFoot" parent="rShin"/>
+        <boneparent bone="rToe" parent="rFoot"/>
+    </bonehierarchy>
+    <animations/>
+</skeleton>
